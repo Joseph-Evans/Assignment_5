@@ -1,0 +1,53 @@
+#allcustomers
+{
+    visibility: hidden;
+    position: absolute;
+    overflow: scroll;
+    width: 600px;
+    background-color: #99CCFF;
+}
+
+#orderhistory
+{
+    visibility: hidden;
+    position: absolute;
+    overflow: scroll;
+    width: 600px;
+    background-color: #99CCFF;
+}
+
+#orderlist
+{
+    visibility: hidden;
+    position: absolute;
+    overflow: scroll;
+    width: 600px;
+    background-color: #99CCFF;
+}
+
+#orderlisttable
+{
+    background-color: #000033;
+    color: white;
+    text-align: center;
+}
+
+#orderhistorytable
+{
+    background-color: #006633;
+    color: white;
+    text-align: center;
+}
+
+#customertable
+{
+    background-color: #CC3300;
+    color: white;
+    text-align: center;
+}
+
+#header
+{
+    background-color: #000080;
+    color: white;
+}

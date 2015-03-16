@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Customer Portal</title>
+    <link rel="stylesheet" type="text/css" href="style/Assignment5.css">
+    <script src="js/Assignment5.js"></script>
+</head>
+
+<body>
+    <section id="header">
+    <h1>Customer Order Portal</h1>
+    <hr>
+    <select onchange="MenuChoice()" id="menu">
+        <option>Please select an option</option>
+        <option>Customer List</option>
+        <option>Customer Order History</option>
+        <option>Customer Order List</option>
+    </select>
+    
+    </section>
+    <section id="allcustomers">
+        <hr>
+        <h2>Customer List</h2>
+        <button onclick="GetAllCustomers()">Get All Customers</button>
+        <hr>
+        <p id="allcustomersdisplay">The customers will displayed here.</p> 
+    </section>
+    <section id="orderhistory">
+        <hr>
+        <h2>Customer Order History</h2>
+        <label>Please input the customer ID:</label>
+        <input type="text" maxlength="5" id="orderhistorycustomerid">
+        <br>
+        <button onclick="GetOrderHistory()">Get Order History</button>
+        <hr>
+        <p id="orderhistorydisplay">Order history will displayed here.</p>
+    </section>
+    <section id="orderlist">
+        <hr>
+        <h2>Customer Order List</h2>
+        <label>Please input the customer ID:</label>
+        <input type="text" maxlength="5" id="orderlistcustomerid">
+        <br>
+        <button onclick="GetOrderList()">Get Order List</button>
+        <hr>
+        <p id="orderlistdisplay">The order list will display here.</p>
+    </section>
+
+</body>
+</html>
